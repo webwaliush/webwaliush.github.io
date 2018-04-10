@@ -192,9 +192,10 @@ margin-top: 0;
 	}
 	.footer-button{
 		font-size: 14px;
+		padding: 13px 41px;
 	}
 }
-@media(max-width: 750px){
+@media(max-width: 770px){
 	.portfolio-col-1, .portfolio-col-2{
 		padding-left: 20px;
 		padding-right: 20px;
@@ -206,5 +207,27 @@ margin-top: 0;
 	.footer-cte{
 		margin: 13px auto;
 	}
-	
+	.footer-text-1 h4{
+   		font-size: 17px;
+	}
+	.footer-text-1 p{
+   		font-size: 10px;
+	}
+	.social-bloc img{
+    	width: 28px;
+    }
+    .social-bloc a{
+    	margin-left: 2px;
+	    margin-right: 2px;
+	}
+	.social-bloc p{
+		font-size: 14px;
+	}
+	.footer-cte{
+		font-size: 14px;
+	}
+	.footer-button{
+		font-size: 13px;
+		padding: 10px 38px;
+	}
 }
