@@ -32,14 +32,24 @@ header{
 	font-weight: 400;
 }
 .header-button{
-box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
-border-radius: 25px;
-background-color: #ffffff;
-color: #072b6f;
-font-size: 18px;
-font-weight: 700;
-padding: 15px 53px;
-margin-top: 14px;
+	display: inline-block;
+	text-decoration: none;
+	cursor: pointer;
+	box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
+	border-radius: 25px;
+	background-color: #ffffff;
+	color: #072b6f;
+	font-size: 18px;
+	font-weight: 700;
+	padding: 15px 53px;
+	margin-top: 14px;
+	-webkit-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s;
+}
+.header-button:hover{
+	box-shadow: none;
+	
 }
 header small{
 	font-size: 12px;
@@ -121,12 +131,15 @@ margin-top: 0;
 	display: inline-block;
 	margin-left: 11px;
 	margin-right: 11px;
+	
 }
 .footer-cte{
 	margin-bottom: 13px;
 	margin-right: 57px;
 }
 .footer-button{
+	cursor: pointer;
+	text-decoration: none;
 	display: inline-block;
 	border-radius: 29px;
 	border: 1px solid #ffffff;
@@ -135,6 +148,12 @@ margin-top: 0;
 	color: #deedfe;
 	font-weight: 400;
 	padding: 15px 43px;
+	-webkit-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s;
+}
+.footer-button:hover{
+	background-color: #1749aa;
 }
 .footer-cte-bloc{
 	text-align: right;
